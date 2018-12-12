@@ -1,0 +1,9 @@
+{application, dialyzer_sample,
+    [
+        {description, "Examples of weird dialyzer stuff"},
+        {vsn, "0.0.1"},
+        {registered, []},
+        {applications, [kernel, stdlib]},
+        {mod, {ds_app, []}},
+        {env, []}
+    ]}.
